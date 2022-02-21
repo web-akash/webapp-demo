@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>operate</title>
+    <!-- fontawsome css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="Full__boody">
+      <div class="operate">
+        <!-- logo part  -->
+        <div class="operate__logo">
+          <img src="./images/logo.png" alt="logo" />
+        </div>
+        <!-- number key part -->
+        <div class="operate__login">
+          <div class="operate__card">
+            <form action="#">
+              <div class="operate__input">
+                <input
+                  class="number__value"
+                  type="text"
+                  placeholder="Enter number"
+                />
+              </div>
+              <div class="number__key">
+                <div class="row__1">
+                  <ul>
+                    <li>
+                      <button onclick="number('1')" type="button">1</button>
+                    </li>
+                    <li>
+                      <button onclick="number('2')" type="button">2</button>
+                    </li>
+                    <li>
+                      <button onclick="number('3')" type="button">3</button>
+                    </li>
+                    <li>
+                      <button onclick="number('4')" type="button">4</button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="row__2">
+                  <ul>
+                    <li>
+                      <button onclick="number('5')" type="button">5</button>
+                    </li>
+                    <li>
+                      <button onclick="number('6')" type="button">6</button>
+                    </li>
+                    <li>
+                      <button onclick="number('7')" type="button">7</button>
+                    </li>
+                    <li>
+                      <button onclick="number('8')" type="button">8</button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="row__3">
+                  <ul>
+                    <li>
+                      <button
+                        onclick="number('#')"
+                        class="hes__inversel"
+                        type="button"
+                      >
+                        #
+                      </button>
+                    </li>
+                    <li>
+                      <button onclick="number('9')" type="button">9</button>
+                    </li>
+                    <li>
+                      <button onclick="number('0')" type="button">0</button>
+                    </li>
+                    <li>
+                      <button
+                        onclick="number('*')"
+                        class="hes__inversel"
+                        type="button"
+                      >
+                        *
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+                <!-- login and cross button part  -->
+                <div class="btn__submitation">
+                  <button onclick="cross()" class="delete__btn" type="button">
+                    <img src="./images/delet.png" alt="delete" />
+                  </button>
+                  <button class="login__btn" type="submit">
+                    <img src="./images/login.png" alt="login icon" />
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- javascript files -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

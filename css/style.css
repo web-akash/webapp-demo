@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: sfp;
+  src: url(../webfonts/SFProDisplay-Regular.woff2);
+}
+@font-face {
+  font-family: kiona;
+  src: url(../webfonts/Kiona.woff2);
+}
+@font-face {
+  font-family: Myriad;
+  src: url(../webfonts/Myriad.woff2);
+}
+body {
+  font-family: sfp;
+}
+
+ul,
+li {
+  list-style: none;
+}
+/* coustom css styled end  */
+/* login pin code area styled start  */
+.Full__boody {
+  width: 100%;
+  height: 100vh;
+  background: #1d313a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.operate .operate__logo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.operate .operate__login .operate__card {
+  padding: 25px 15px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom right, #2c454f, #0c181c);
+  filter: brightness(122%) invert(7%)
+    drop-shadow(0px 0px 23px rgba(12, 24, 28, 0.51));
+  -webkit-filter: brightness(122%) invert(7%)
+    drop-shadow(0px 0px 23px rgba(12, 24, 28, 0.51));
+  -moz-filter: brightness(122%) invert(7%)
+    drop-shadow(0px 0px 23px rgba(12, 24, 28, 0.51));
+}
+.operate .operate__login .operate__card .operate__input {
+  margin: 10px 6px 16px;
+}
+.operate .operate__login .operate__card .operate__input .number__value {
+  width: 100%;
+  padding: 20px;
+  background: #0c181c;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 1px;
+}
+::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+.operate .operate__login .operate__card .number__key ul li {
+  display: inline-block;
+}
+.operate .operate__login .operate__card .number__key ul li button {
+  display: inline-block;
+  background-image: linear-gradient(to bottom right, #1f585f, #132027);
+  height: 80px;
+  width: 80px;
+  margin: 5px;
+  border-radius: 10px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 45px;
+  color: #fff;
+  font-family: kiona;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: 2px 1px 14px -2px #000000;
+  box-shadow: 2px 1px 14px -2px #000000;
+}
+
+.operate .operate__login .operate__card .number__key ul li button:active {
+  transform: translate(0, 0.2rem);
+}
+.operate .operate__login .operate__card .number__key .hes__inversel {
+  background-image: linear-gradient(to bottom right, #00a099, #0a6060);
+}
+.operate .btn__submitation {
+  display: flex;
+  justify-content: space-between;
+  margin: 13px 6px;
+}
+.operate .btn__submitation button {
+  width: 171px;
+  height: 75px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+.operate .btn__submitation .delete__btn {
+  background-image: linear-gradient(to bottom right, #9c9b9b, #253036);
+  -webkit-box-shadow: 2px 1px 14px -2px #000000;
+  box-shadow: 2px 1px 14px -2px #000000;
+  cursor: pointer;
+}
+.operate .btn__submitation .delete__btn:active {
+  transform: translate(0, 0.2rem);
+}
+.operate .btn__submitation .login__btn {
+  background-image: linear-gradient(to bottom right, #f8b133, #e84e1b);
+  -webkit-box-shadow: 2px 1px 14px -2px #000000;
+  box-shadow: 2px 1px 14px -2px #000000;
+}
+/* login pin code area styled start  */
